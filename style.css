@@ -365,3 +365,70 @@ header{
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.me{
+    padding-top: 20px;
+    /*table*/
+}
+table{
+    border-collapse: collapse;
+    width: 300px;
+    margin: auto;
+    height: 200px;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #aaa704;
+  color: white;
+}
+/*mi*/
+.lik{
+
+    height: 150px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*vis*/
+
+.you{
+
+    background-color: grey;
+    height: 200px;
+    width: 1400px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+/*footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    width: 1400px;
+    text-align: center;
+    font-size: 15px;
+    height: 50px;
+    padding-top: 20px;
+}    
+/*link*/
+
+a:link {
+    color: rgb(38, 0, 255);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: red;
+    cursor: pointer;
+  }
